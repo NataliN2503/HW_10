@@ -1,0 +1,87 @@
+    1  help dir
+    2  clear
+    3  dir
+    4  clear
+    5  dir
+    6  clear
+    7  dir
+    8  cd Desktop
+    9  dir
+   10  cd ..
+   11  dir
+   12  cd Desktop
+   13  cd ~
+   14  dir
+   15  cd Desktop
+   16  dir Desktop
+   17  dir
+   18  cd 
+   19  cd Desktop
+   20  mkdir Lesson
+   21  dir 
+   22  mkdir Lesson 2
+   23  dir
+   24  type nul > empty.txt
+   25  dir
+   26  clear
+   27  dir
+   28  notepad empty.txt
+   29  mkdir HW 10
+   30  dir
+   31  notepad empty.txt
+   32  cat empty.txt
+   33  cd
+   34  del empty.txt
+   35  clear
+   36  dir
+   37  cd Desktop
+   38  del empty.txt
+   39  dir 
+   40  del empty.txt
+   41  rm empty.txt
+   42  cd Git
+   43  clear
+   44  git config --global user.name "Natali Novorosjuk"
+   45  git config --global user.email novornat@ukr.net
+   46  git clone https://github.com/NataliN2503/HW_10.git
+   47  type nul > text_ignore.txt
+   48  cd .gitignore
+   49  cd HW_10
+   50  notepad .gitignore
+   51  type nul > text_ignore.txt
+   52  cd HW
+   53  git status
+   54  git add text_ignore.txt
+   55  git add .
+   56  git commit -m 
+   57  clear
+   58  git add .
+   59  git commit -m "Created"
+   60  type nul > main_test.txt
+   61  git add
+   62  git commit
+   63  git branch
+   64  git checkout develop
+   65  git branch
+   66  git checkout -b Develop
+   67  git checkout Develop
+   68  type nul >develop_test.txt
+   69  git add
+   70  git commit
+   71  notepad develop_test.txt
+   72  git status
+   73  git commit
+   74  git add
+   75  git commit
+   76  git status
+   77  git add
+   78  git add .
+   79  git commit
+   80  git status
+   81  git add .
+   82  git commit
+   83  git branch
+   84  git checkout main
+   85  git merge Develop
+   86  git log
+   87  history > command_list.csv
